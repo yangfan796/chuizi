@@ -1,0 +1,120 @@
+#shoppingcar {
+  width: 1349px;
+  margin: 0 auto; }
+  #shoppingcar .w {
+    width: 1200px;
+    margin: auto; }
+    #shoppingcar .w .shopping_nav .Navigation {
+      font-size: 16px;
+      color: #333;
+      padding: 30px 0 15px;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 35px; }
+      #shoppingcar .w .shopping_nav .Navigation span {
+        font-size: 16px;
+        color: #777; }
+      #shoppingcar .w .shopping_nav .Navigation .comma {
+        font-size: 16px;
+        color: #777;
+        padding: 0 5px; }
+    #shoppingcar .w .main {
+      width: 1200px;
+      margin: auto; }
+      #shoppingcar .w .main .cart-title {
+        margin-bottom: 15px; }
+        #shoppingcar .w .main .cart-title #cart-ico {
+          display: block;
+          width: 140px;
+          height: 40px;
+          background: url(../img/sprite\ 2.png) no-repeat -154px -777px; }
+      #shoppingcar .w .main .cart-steps1 {
+        background: url(../img/cartsteps.png) no-repeat 0 0;
+        width: 1200px;
+        height: 37px;
+        margin: 0 0 30px; }
+      #shoppingcar .w .main .cart-content .cart_title {
+        font-size: 18px;
+        padding-left: 0;
+        padding-bottom: 8px;
+        padding: 0 0 5px 10px; }
+      #shoppingcar .w .main .cart-content #table {
+        width: 1200px;
+        overflow: hidden; }
+        #shoppingcar .w .main .cart-content #table #th {
+          height: 37px;
+          width: 100%;
+          line-height: 37px; }
+          #shoppingcar .w .main .cart-content #table #th li {
+            float: left;
+            width: 170px;
+            text-align: center;
+            line-height: 30px;
+            font-weight: 400;
+            color: #666;
+            font-size: 14px; }
+        #shoppingcar .w .main .cart-content #table #tbody {
+          width: 1200px; }
+          #shoppingcar .w .main .cart-content #table #tbody .tr {
+            width: 1200px;
+            padding-top: 5px;
+            border-bottom: 1px #999 solid; }
+            #shoppingcar .w .main .cart-content #table #tbody .tr .itme_price {
+              color: #fa3c87; }
+            #shoppingcar .w .main .cart-content #table #tbody .tr li {
+              float: left;
+              width: 170px;
+              height: 130px;
+              text-align: center;
+              line-height: 30px;
+              font-weight: 400;
+              color: #666;
+              font-size: 14px; }
+              #shoppingcar .w .main .cart-content #table #tbody .tr li span {
+                width: 30px;
+                height: 28px;
+                float: left;
+                border: #999 1px solid; }
+              #shoppingcar .w .main .cart-content #table #tbody .tr li .count {
+                width: 100px;
+                height: 24px;
+                float: left;
+                text-align: center; }
+              #shoppingcar .w .main .cart-content #table #tbody .tr li img {
+                width: 120px;
+                height: 120px;
+                margin: auto; }
+        #shoppingcar .w .main .cart-content #table #tfoot {
+          height: 52px;
+          background-color: #f6b2cd;
+          padding: 10px 15px; }
+          #shoppingcar .w .main .cart-content #table #tfoot #deleteall {
+            width: 111px;
+            height: 30px;
+            background: url(../img/sprite\ 2.png) no-repeat -161px -979px;
+            margin-right: 20px;
+            border: 0;
+            float: left; }
+          #shoppingcar .w .main .cart-content #table #tfoot .total {
+            float: left;
+            margin-left: 500px;
+            font-size: 16px;
+            margin-top: 20px; }
+            #shoppingcar .w .main .cart-content #table #tfoot .total #priceTotal {
+              margin: 0 5px;
+              color: #fa3b88; }
+          #shoppingcar .w .main .cart-content #table #tfoot #selected {
+            float: left;
+            font-size: 16px;
+            margin-left: 20px;
+            margin-top: 20px; }
+            #shoppingcar .w .main .cart-content #table #tfoot #selected #selectedTotal {
+              margin: 0 5px;
+              color: #fa3b88; }
+          #shoppingcar .w .main .cart-content #table #tfoot #pay {
+            width: 151px;
+            height: 42px;
+            background: url(../img/sprite\ 2.png) no-repeat 0 -979px;
+            border: 0;
+            float: right; }
+
+/*# sourceMappingURL=shoppingcar.css.map */

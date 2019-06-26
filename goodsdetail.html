@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>春纪</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/float-nav.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/goodslist.css">
+    <link rel="stylesheet" href="css/goodsdetail.css">
+</head>
+<body>
+    <div id="header">
+        <div class="top">
+            <div class="top-left">客服专线：400-830-4000 </div>
+            <h1 class="top-logo"><a href="index.html"></a></h1>
+            <div class="top-right  cl">
+                <div class="car cl">
+                    <a href="mycarshopping.html">
+                        <img src="img/images/sprite_06.jpg" alt="">
+                        <span class="car-text">我的购物车</span>
+                        <span class="car-count">
+                            (<b class="car-number">0</b>)
+                        </span>
+                    </a>
+                </div>
+                <div class="top-right-login">
+                    <span class="sign">
+                        <a href="login.html" class="sign_in">登陆</a>
+                        <span class="comma">/</span>
+                        <a href="register.html" class="sign_up">注册</a>
+                    </span>
+                    <span class="userinfo">
+                            <span class="username">yangfan</span><button id="exist">退出</button>
+                        </span>
+                </div>
+            </div>
+        </div>
+        <div class="under">
+            <div class="menu cl">
+                <div class="menu-mid">
+                    <div class="item item1">
+                        <a href="index.html">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">首页</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">首页</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item2">
+                        <a href="goodslist.html">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">官方商城</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">官方商城</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item3">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">食材养肤</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">食材养肤</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item4">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">产品分类</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">产品分类</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item5">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">春纪名片</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">春纪名片</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item6">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">养肤专栏</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">养肤专栏</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item7">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">会员中心</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">会员中心</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-right">
+                    <div class="menu-right-t-item"></div>
+                    <div class="menu-right-content">
+                        <input type="text" id="searchcontent">
+                        <button id="search">搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="product_container" class="cl">
+        <div class="product_img">
+            <div class="product_smallimg">
+                <img src="img/xp3.jpg" alt="" id="smallImg" draggable="false">
+                <div id="shadow"></div>
+                <div id="bigShadow">
+                        <img src="img/xp3.jpg" id="bigImg" draggable="false">
+                 </div>
+            </div>
+            <ul id="img_nav" class="cl">
+                <!-- <li><img src="img/xp3.jpg" alt=""></li> -->
+            </ul>
+        </div>
+        <div class="goods_detail">
+            <div class="goods_name">
+                <span id="goodsname"></span>
+            </div>
+            <div class="goods_description">
+                <span id="goodsdescription">补水嫩肤  紧致护肤</span>
+            </div>
+            <div class="goods_price">
+                销售价:
+                <span id="goodsprice">￥129.00</span>
+            </div>
+            <div class="goods_num">
+                购买数量:
+                <button id="reduce">-</button><input id="count" value="1"><button id="add">+</button>
+            </div>
+            <div class="goodsfoot cl">
+                    <button id="gobuygoods"></button>
+                    <button id="join_shoppingcar"></button>
+            </div>
+        </div>
+    </div>
+    <div id="main1">
+        <div class="web-foot">
+            <div class="web-foot-top cl">
+                <div class="foot-item1">
+                    <div class="foot-item1-title">明星单品</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">养肤专栏</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">养肤系列</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">春纪名片</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">找到我们</div>
+                    <ul>
+                        <li>附近门店</li>
+                        <li>授权电商</li>
+                        <li>官方微博</li>
+                        <li>官方微信</li>
+                        <li>商城微信</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="web-foot-bottom"> 广东丸美生物技术股份有限公司 粤ICP备12040230号 COPYRIGHT@2014 MMARUBI,ALLRIGHTRESERVED </div>
+        </div>
+    </div>
+
+    <div class="float-nav" id="float_nav">
+        <div id="float_nav_wrap">
+            <div class="column-top">
+                <div class="column column1">
+                    <a class="gouwuche">
+                        <div class="c-ico"></div>
+                        <div class="c-text">购物车</div>
+                        <div class="c-num"><b class="op-cart-number">0</b></div>
+                    </a>
+                </div>
+                <div class="column column2">
+                    <a target="_blank" href="">
+                        <div class="c-ico"></div>
+                        <div class="c-text">个人中心</div>
+                    </a>
+                </div>
+                <div class="column column3">
+                    <a href="" target="_self" onclick="OpenChatUrl();">
+                        <div class="c-ico"></div>
+                        <div class="c-text">在线客服</div>
+                    </a>
+                </div>
+                <div class="column column3">
+                    <a href="" target="_self" onclick="OpenChat();">
+                        <div class="c-ico"></div>
+                        <div class="c-text">商品咨询</div>
+                    </a>
+                </div>
+                <div class="column column4">
+                    <div class="c-ico"></div>
+                    <div class="c-text">官方电话</div>
+                    <div class="c-text">400-830</div>
+                    <div class="c-text">-4000</div>
+                </div>
+                <div class="column column5">
+                    <div class="c-scan"></div>
+                    <div class="c-text">扫码加入</div>
+                    <div class="c-text">春纪官方</div>
+                    <div class="c-text">微信商城</div>
+                </div>
+            </div>
+            <div class="column column6"><a class="gotop" href="" id="gotop" target="_self"
+                    style="visibility: hidden;">回到顶部</a></div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/cookie.js"></script>
+<script>
+    var loginId = getCookie("loginId");
+    if (loginId) {
+        var loginName = getCookie("loginName");
+        $(".username").html(loginName);
+        $(".sign").hide();
+        $(".userinfo").show();
+        $.ajax({
+            type:"get",
+            url:"php/showshoppingnumbyuserid.php",
+            data:{
+                userid:loginId
+            },
+            dataType:"json",
+            success:function(obj){
+                var countnum=obj.num;
+                $(".op-cart-number").html(countnum);
+                $(".car-number").html(countnum);
+            }
+    })
+    $(".gouwuche").click(function(){
+        window.location.href="shoppingcar.html"
+    })
+    var minNum=1;
+    $("#add").click(function(){
+        $("#count").val(($("#count").val())*1+1);
+    })
+    $("#reduce").click(function(){
+        if($("#count").val()<minNum){
+            $("#count").val()==minNum;
+        }else{
+            $("#count").val($("#count").val()-1);
+        }
+        
+    })
+    } else {
+        
+    }
+    $("#exist").click(function(){
+        existLogin();
+        gotoLogin();
+    })
+    $(".sign_in").click(function(){
+        gotoLogin()
+    })
+    $(".sign_up").click(function(){
+        gotoRegister()
+    })
+    function existLogin(){
+        setCookie("loginId", "", -1);
+        setCookie("loginName", "", -1);
+        window.location.href = "login.html";
+    }
+    function gotoLogin(){
+        setCookie("backUrl", window.location.href);
+        window.location.href = "login.html";
+    }
+    function gotoRegister(){
+        setCookie("backUrl", window.location.href);
+        window.location.href = "register.html";
+    }
+   
+    var str = window.location.search;
+    if (str.indexOf("id") != -1) {
+        var id = str.split("=")[1];
+        $.ajax({
+            type:"get",
+            url:"php/goodsdetail.php",
+            data:{
+                id:id
+            },
+            dataType:"json",
+            success:function(obj){
+                let {
+                    id,
+                    goodsname,
+                    goodsdesc,
+                    goodsprice,
+                    goodsimg,
+                    goodsbigimg
+                } = obj;
+                $("#goodsname").html(goodsname);
+                $("#goodsdescription").html(goodsdesc);
+                $("#goodsprice").html("￥"+goodsprice);
+                smallImg.src = `img/${goodsimg}.jpg`;
+                bigImg.src=`/img/${goodsbigimg}.jpg`
+                $("#img_nav").html(`<li><img src="img/${goodsimg}.jpg" alt=""></li>`)
+                $("#join_shoppingcar").attr("data-goodsname",goodsname);
+                $("#join_shoppingcar").attr("data-goodsprice",goodsprice);
+                $("#join_shoppingcar").attr("data-goodsimg",goodsimg);
+                $("#join_shoppingcar").attr("data-goodsid",id);
+            }
+
+        })
+    }
+    $("#join_shoppingcar").click(function(){
+        if (loginId) {
+            var goodsid = $(this).attr("data-goodsid");
+            var goodsname = $(this).attr("data-goodsname");
+            var goodsprice = $(this).attr("data-goodsprice");
+            var goodsimg = $(this).attr("data-goodsimg");
+            var userid = loginId;
+            var goodsnum=$("#count").val();
+
+            $.ajax({
+                type:"get",
+                url:"php/joinshoppingcar.php",
+                data:{
+                    userid:userid,
+                    goodsid:goodsid,
+                    goodsname:goodsname,
+                    goodsnum:goodsnum,
+                    goodsprice:goodsprice,
+                    goodsimg:goodsimg
+                },
+                dataType:"json",
+                success:function(obj){
+                    if(obj["code"]==1){
+                       if(confirm("加入成功,是否进行结算")){
+                        window.location.href = "shoppingcar.html";
+                       }else{
+                        window.location.href = "goodslist.html";
+                       }
+                    }else{
+                        alert(obj["msg"]);
+                    }
+                }
+            })
+        }else{
+           if(confirm("您还没有登陆,是否要登陆")){
+            gotoLogin();
+           }
+        }
+
+    })
+    var topWidth = parseInt($(".product_smallimg").css("width"));
+    var shadowWidth=parseInt($("#shadow").css("width"));
+    var maxX=topWidth-shadowWidth;
+    var topHeight=parseInt($(".product_smallimg").css("height"));
+    var shadowHeight=parseInt($("#shadow").css("height"));
+    var maxY=topHeight-shadowHeight;
+    var boxMarginLeft=parseInt($("#product_container").css("margin-left"));
+    var boxMarginTop=parseInt($("#header").css("height"));
+    var bigImgWidth=parseInt($("#bigImg").css("width"));
+    var bigImgHeight=parseInt($("#bigImg").css("height"));
+    var bigShadowWidth=parseInt($("#bigShadow").css("width"));
+    var bigShadowHeight=parseInt($("#bigShadow").css("height"));
+    $(".product_smallimg").mousemove(function(e){
+        var evt = window.event || e;
+        var pageX = evt.pageX;
+        var pageY = evt.pageY;
+        var x = pageX - shadowWidth / 2 - boxMarginLeft;
+        var y = pageY - shadowHeight / 2 - boxMarginTop;
+        if (x <= 0) {
+            x = 0
+        }
+        if (y <= 0) {
+            y = 0
+        }
+        if (x >= maxX) {
+            x = maxX
+        }
+        if (y >= maxY) {
+            y = maxY
+        };
+        $("#shadow").css("left",x+"px");
+        $("#shadow").css("top",y+"px");
+        var bigX = bigImgWidth * x / topWidth;
+        var bigY = bigImgHeight * y / topHeight;
+        var bigShadowX = x - (bigShadowWidth / 2 - shadowWidth / 2)
+        var bigShadowY = y - (bigShadowHeight / 2 - shadowHeight / 2)
+        $("#bigImg").css("left",-bigX+"px");
+        $("#bigImg").css("top",-bigY+"px");
+        $("#shadow").css("display","block");
+        $("#bigShadow").css("display","block");
+
+    })
+    $(".product_smallimg").mouseout(function(e){
+        $("#shadow").css("display","none");
+        $("#bigShadow").css("display","none"); 
+    })
+</script>
+
+</html>

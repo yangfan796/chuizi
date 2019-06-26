@@ -1,0 +1,83 @@
+#signpage {
+  width: 1349px;
+  height: 750px;
+  padding-top: 50px;
+  margin: 0 auto; }
+  #signpage .sign-content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
+    #signpage .sign-content .sign-content-login {
+      width: 1135px;
+      height: 600px;
+      background: url(../img/signupbg.jpg) no-repeat 0 0;
+      padding: 45px 0 45px 65px; }
+      #signpage .sign-content .sign-content-login .l-sign .signner-form {
+        border: none;
+        margin: 0;
+        width: 481px;
+        background: none; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form .signner-title {
+          border: none;
+          margin: 0; }
+          #signpage .sign-content .sign-content-login .l-sign .signner-form .signner-title h2 {
+            display: block;
+            font-size: 26px;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            text-align: center;
+            color: #fa3b88; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form form .username {
+          margin-top: 40px;
+          padding: 0 5px;
+          width: 357px;
+          height: 35px;
+          margin-left: 55px; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form form .userpassword {
+          margin-top: 40px;
+          padding: 0 5px;
+          width: 357px;
+          height: 35px;
+          margin-left: 55px; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form form .username-error {
+          display: block;
+          margin-left: 55px; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form form .password-error {
+          display: block;
+          margin-left: 55px; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form form .confirm-error {
+          display: block;
+          margin-left: 55px; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form form .confirm-password {
+          margin-top: 40px;
+          padding: 0 5px;
+          width: 357px;
+          height: 35px;
+          margin-left: 55px; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form form .check-ag {
+          margin-top: 40px;
+          padding: 0 5px;
+          width: 357px;
+          height: 35px;
+          margin-left: 55px; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form form #register {
+          margin-left: 55px;
+          width: 359px;
+          height: 44px;
+          background-color: #fa3b88;
+          border-radius: 10px; }
+        #signpage .sign-content .sign-content-login .l-sign .signner-form .goto-signup {
+          color: #181818;
+          font-size: 16px;
+          padding: 0 57px;
+          text-align: right;
+          padding-top: 15px;
+          font-size: 16px; }
+          #signpage .sign-content .sign-content-login .l-sign .signner-form .goto-signup a {
+            color: #fa3c87;
+            text-decoration: underline; }
+
+/*# sourceMappingURL=register.css.map */

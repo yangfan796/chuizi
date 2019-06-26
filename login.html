@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆界面</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/float-nav.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="top">
+            <div class="top-left">客服专线：400-830-4000 </div>
+            <h1 class="top-logo"><a href="index.html"></a></h1>
+            <div class="top-right  cl">
+                <div class="car cl">
+                    <a href="shoppingcar.html">
+                        <img src="img/images/sprite_06.jpg" alt="">
+                        <span class="car-text">我的购物车</span>
+                        <span class="car-count">
+                            (<b class="car-number">0</b>)
+                        </span>
+                    </a>
+                </div>
+                <div class="top-right-login">
+                    <span class="sign">
+                        <a href="login.html" class="sign_in">登陆</a>
+                        <span class="comma">/</span>
+                        <a href="register.html" class="sign_up">注册</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="under">
+            <div class="menu cl">
+                <div class="menu-mid">
+                    <div class="item item1">
+                        <a href="index.html">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">首页</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">首页</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item2">
+                        <a href="goodslist.html">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">官方商城</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">官方商城</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item3">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">食材养肤</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">食材养肤</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item4">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">产品分类</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">产品分类</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item5">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">春纪名片</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">春纪名片</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item6">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">养肤专栏</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">养肤专栏</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item7">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">会员中心</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">会员中心</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-right">
+                    <div class="menu-right-t-item"></div>
+                    <div class="menu-right-content">
+                        <input type="text" id="searchcontent">
+                        <button id="search">搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="signpage">
+        <div class="sign-content">
+            <div class="sign-content-login">
+                <div class="l-sign">
+                    <div class="signner-form">
+                        <div class="signner-title">
+                            <h2>会员登录</h2>
+                        </div>
+                        <form action="">
+                            <input type="text" class="username" placeholder="用户名">
+                            <input type="password" class="userpassword" placeholder="密码">
+                            <input type="text" class="l-code" placeholder="填写验证码"><span class="l-code-img">1234</span>
+                            <span id="l-code-choose">看不清?换一个</span>
+                            <div class="check-ways">
+                                <input type="checkbox" class="Remember-account" id="for_remenber"><label
+                                    for="for_remenber" class="form-sub-label">记住密码</label>
+                                <input type="checkbox" class="automatic login" id="for_auto_signin"><label
+                                    for="for_auto_signin">两周内自动登录</label>
+                                <span class="forgetpass">
+                                    <a href="">忘记密码?</a>
+                                </span>
+
+                            </div>
+                            <button id="login" type="button">登录</button>
+                        </form>
+                        <div class="goto-signup">
+                            还没有会员?<span><a href="register.html">现在注册</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="main1">
+        <div class="main-title2">
+        </div>
+        <div class="web-foot">
+            <div class="web-foot-top cl">
+                <div class="foot-item1">
+                    <div class="foot-item1-title">明星单品</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">养肤专栏</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">养肤系列</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">春纪名片</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">找到我们</div>
+                    <ul>
+                        <li>附近门店</li>
+                        <li>授权电商</li>
+                        <li>官方微博</li>
+                        <li>官方微信</li>
+                        <li>商城微信</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="web-foot-bottom"> 广东丸美生物技术股份有限公司 粤ICP备12040230号 COPYRIGHT@2014 MMARUBI,ALLRIGHTRESERVED </div>
+        </div>
+        <div class="float-nav" id="float_nav">
+            <div id="float_nav_wrap">
+                <div class="column-top">
+                    <div class="column column1">
+                        <a target="_blank" href="">
+                            <div class="c-ico"></div>
+                            <div class="c-text">购物车</div>
+                            <div class="c-num"><b class="op-cart-number">0</b></div>
+                        </a>
+                    </div>
+                    <div class="column column2">
+                        <a target="_blank" href="">
+                            <div class="c-ico"></div>
+                            <div class="c-text">个人中心</div>
+                        </a>
+                    </div>
+                    <div class="column column3">
+                        <a href="javascript:;" target="_self" onclick="OpenChatUrl();">
+                            <div class="c-ico"></div>
+                            <div class="c-text">在线客服</div>
+                        </a>
+                    </div>
+                    <div class="column column3">
+                        <a href="javascript:;" target="_self" onclick="OpenChat();">
+                            <div class="c-ico"></div>
+                            <div class="c-text">商品咨询</div>
+                        </a>
+                    </div>
+                    <div class="column column4">
+                        <div class="c-ico"></div>
+                        <div class="c-text">官方电话</div>
+                        <div class="c-text">400-830</div>
+                        <div class="c-text">-4000</div>
+                    </div>
+                    <div class="column column5">
+                        <div class="c-scan"></div>
+                        <div class="c-text">扫码加入</div>
+                        <div class="c-text">春纪官方</div>
+                        <div class="c-text">微信商城</div>
+                    </div>
+                </div>
+                <div class="column column6"><a class="gotop" href="" id="gotop" target="_self"
+                        style="visibility: hidden;">回到顶部</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/sha1.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/bigList.js"></script>
+<script>
+    $(".l-code-img").html(getRand());
+
+    $("#login").click(function () {
+        var username = $(".username").val();
+        var userpwd = $(".userpassword").val();
+
+        $.ajax({
+            type: "get",
+            url: "php/login.php",
+            data: {
+                username: username,
+                userpwd: hex_sha1(userpwd)
+            },
+            dataType: "json",
+            success: function (obj) {
+                if (obj.code == 1) {
+                    if ($(".l-code").val() == $(".l-code-img").html()) {
+                        var userId = obj["userid"];
+                        setCookie("loginId", userId, 7);
+                        setCookie("loginName", username, 7);
+                        if(getCookie("backUrl")){
+                            window.location.href = getCookie("backUrl");
+                        }else{
+                            window.location.href="index.html";
+                        }
+                        
+                    } else {
+                        $(".l-code-img").html(getRand());
+                    }
+                } else {
+                    alert(obj["msg"]);
+                }
+            }
+        })
+
+
+    })
+    $(".l-code-img").click(function () {
+        $(".l-code-img").html(getRand());
+    })
+    $("#l-code-choose").click(function () {
+        $(".l-code-img").html(getRand());
+    })
+
+    function getRand() {
+        var html = ""
+        for (var i = 1; i <= 4; i++) {
+            var randIndex = Math.round(Math.random() * (bigList.length - 1))
+            var randcode = bigList[randIndex]
+            html += randcode
+        }
+        return html
+    }
+</script>
+
+</html>

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>春纪</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/float-nav.css">
+    <link rel="stylesheet" href="css/settlement.css">
+    <link rel="stylesheet" href="css/content.css">
+</head>
+
+<body>
+    <div id="bigshadow">
+        <div id="erweima">
+            <img src="img/erweima.jpg" alt="">
+            <div id="tixing">扫码支付</div>
+        </div>
+    </div>
+    <div id="payment_page">
+            <div id="payment_interface">
+                <div id="payment_title">支付界面</div>
+                <div id="address">
+                    <span>收货地址:</span>
+                    <select name="" id="address_choose">
+                        <option value="">请选择收货地址</option>
+                    </select>
+                </div>
+                <div id="recipient">
+                        <span>收件人:</span>
+                        <select name="" class="recipient">
+                            <option value="">请选择收件人</option>
+                        </select>
+                </div>
+                <div class="goodsprice">￥100</div>
+                <button id="pay">确认支付</button>
+                <button id="cancel">取消支付</button>
+            </div>
+        </div>
+    <div id="header">
+        <div class="top">
+            <div class="top-left">客服专线：400-830-4000 </div>
+            <h1 class="top-logo"><a href="chunji.html"></a></h1>
+            <div class="top-right  cl">
+                <div class="car cl">
+                    <a href="shoppingcar.html">
+                        <img src="img/images/sprite_06.jpg" alt="">
+                        <span class="car-text">我的购物车</span>
+                        <span class="car-count">
+                            (<b class="car-number">0</b>)
+                        </span>
+                    </a>
+                </div>
+                <div class="top-right-login">
+                    <span class="sign">
+                        <a href="login.html" class="sign_in">登陆</a>
+                        <span class="comma">/</span>
+                        <a href="register.html" class="sign_up">注册</a>
+                    </span>
+                    <span class="userinfo">
+                        <span class="username">yangfan</span><button id="exist">退出</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="under">
+            <div class="menu cl">
+                <div class="menu-mid">
+                    <div class="item item1">
+                        <a href="chunji首页.html">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">首页</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">首页</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item2">
+                        <a href="goodslist.html">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">官方商城</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">官方商城</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item3">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">食材养肤</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">食材养肤</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item4">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">产品分类</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">产品分类</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item5">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">春纪名片</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">春纪名片</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item6">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">养肤专栏</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">养肤专栏</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item7">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">会员中心</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">会员中心</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-right">
+                    <div class="menu-right-t-item"></div>
+                    <div class="menu-right-content">
+                        <input type="text" id="searchcontent">
+                        <button id="search">搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="shoppingcar">
+        <div class="w">
+            <div class="shopping_nav">
+                <div class="Navigation">
+                    <span>
+                        <a href="goodslist.html">商城首页</a>
+                    </span>
+                    <span class="comma">></span>
+                    <span class="now">购物车</span>
+                </div>
+            </div>
+            <div class="main">
+                <div class="cart-title">
+                    <span id="cart-ico"></span>
+                </div>
+                <div class="cart-steps cart-steps2"></div>
+                <div class="cart-content">
+                    <div class="cart_title">收货信息</div>
+                    <div class="shipping-address">
+                        <em style="color:red">*</em>
+                        <span style="margin-right: 10px">收货地区:</span>
+                        <select id="province">
+                            <option value="">请选择省份</option>
+                        </select>
+                        <select id="city">
+                            <option value="">请选择城市</option>
+                        </select>
+                        <select id="town">
+                            <option value="">请选择区县</option>
+                        </select>
+                    </div>
+                    <div class="detailed-address">
+                        <em style="color:red">*</em>
+                        <span style="margin-right: 10px">详细地址:</span>
+                        <input type="text" id="detail_address">
+                    </div>
+                    <div class="zip-code">
+                        <span style="margin-right: 10px">邮编:</span>
+                        <input type="text" id="zipCode">
+                    </div>
+                    <div class="consignee-name">
+                        <em style="color:red">*</em>
+                        <span>收货人:</span>
+                        <input type="text" id="consigneeName">
+                    </div>
+                    <div class="consignee-tel">
+                            <em style="color:red">*</em>
+                            <span style="margin-right: 10px">联系方式:</span>
+                            <input type="text" id="consigneeTel">
+                    </div>
+                    <button id="Confirm_receipt">新建收货信息</button>
+                    <button id="gobuy">直接购买</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="main1">
+            <div class="web-foot">
+                <div class="web-foot-top cl">
+                    <div class="foot-item1">
+                        <div class="foot-item1-title">明星单品</div>
+                        <ul>
+                            <li>发光小奶瓶</li>
+                            <li>蓝光水</li>
+                            <li>牛扳安瓶</li>
+                            <li>皙白霜</li>
+                            <li>水凝乳</li>
+                        </ul>
+                    </div>
+                    <div class="foot-item1">
+                        <div class="foot-item1-title">养肤专栏</div>
+                        <ul>
+                            <li>发光小奶瓶</li>
+                            <li>蓝光水</li>
+                            <li>牛扳安瓶</li>
+                            <li>皙白霜</li>
+                            <li>水凝乳</li>
+                        </ul>
+                    </div>
+                    <div class="foot-item1">
+                        <div class="foot-item1-title">养肤系列</div>
+                        <ul>
+                            <li>发光小奶瓶</li>
+                            <li>蓝光水</li>
+                            <li>牛扳安瓶</li>
+                            <li>皙白霜</li>
+                            <li>水凝乳</li>
+                        </ul>
+                    </div>
+                    <div class="foot-item1">
+                        <div class="foot-item1-title">春纪名片</div>
+                        <ul>
+                            <li>发光小奶瓶</li>
+                            <li>蓝光水</li>
+                            <li>牛扳安瓶</li>
+                            <li>皙白霜</li>
+                            <li>水凝乳</li>
+                        </ul>
+                    </div>
+                    <div class="foot-item1">
+                        <div class="foot-item1-title">找到我们</div>
+                        <ul>
+                            <li>附近门店</li>
+                            <li>授权电商</li>
+                            <li>官方微博</li>
+                            <li>官方微信</li>
+                            <li>商城微信</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="web-foot-bottom"> 广东丸美生物技术股份有限公司 粤ICP备12040230号 COPYRIGHT@2014 MMARUBI,ALLRIGHTRESERVED
+                </div>
+            </div>
+        </div>
+
+        <div class="float-nav" id="float_nav">
+            <div id="float_nav_wrap">
+                <div class="column-top">
+                    <div class="column column1">
+                        <a class="gouwuche">
+                            <div class="c-ico"></div>
+                            <div class="c-text">购物车</div>
+                            <div class="c-num"><b class="op-cart-number">0</b></div>
+                        </a>
+                    </div>
+                    <div class="column column2">
+                        <a target="_blank" href="">
+                            <div class="c-ico"></div>
+                            <div class="c-text">个人中心</div>
+                        </a>
+                    </div>
+                    <div class="column column3">
+                        <a href="javascript:;" target="_self" onclick="OpenChatUrl();">
+                            <div class="c-ico"></div>
+                            <div class="c-text">在线客服</div>
+                        </a>
+                    </div>
+                    <div class="column column3">
+                        <a href="javascript:;" target="_self" onclick="OpenChat();">
+                            <div class="c-ico"></div>
+                            <div class="c-text">商品咨询</div>
+                        </a>
+                    </div>
+                    <div class="column column4">
+                        <div class="c-ico"></div>
+                        <div class="c-text">官方电话</div>
+                        <div class="c-text">400-830</div>
+                        <div class="c-text">-4000</div>
+                    </div>
+                    <div class="column column5">
+                        <div class="c-scan"></div>
+                        <div class="c-text">扫码加入</div>
+                        <div class="c-text">春纪官方</div>
+                        <div class="c-text">微信商城</div>
+                    </div>
+                </div>
+                <div class="column column6"><a class="gotop" href="" id="gotop" target="_self"
+                        style="visibility: hidden;">回到顶部</a></div>
+            </div>
+        </div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/cookie.js"></script>
+<script>
+    var loginId = getCookie("loginId");
+    if (loginId) {
+        var loginName = getCookie("loginName");
+        $(".username").html(loginName);
+        $(".sign").hide();
+        $(".userinfo").show();
+        $.ajax({
+            type:"get",
+            url:"php/showshoppingnumbyuserid.php",
+            data:{
+                userid:loginId
+            },
+            dataType:"json",
+            success:function(obj){
+                var countnum=obj.num;
+                $(".op-cart-number").html(countnum);
+                $(".car-number").html(countnum);
+            }
+    })
+    $(".gouwuche").click(function(){
+        window.location.href="shoppingcar.html"
+    })
+    } else {
+
+    }
+    $("#exist").click(function () {
+        existLogin();
+    })
+    $(".sign_in").click(function () {
+        gotoLogin()
+    })
+    $(".sign_up").click(function () {
+        gotoRegister()
+    })
+    function existLogin() {
+        setCookie("loginId", "", -1);
+        setCookie("loginName", "", -1);
+        window.location.href = "login.html";
+    }
+    function gotoLogin() {
+        setCookie("backUrl", window.location.href, 7);
+        window.location.href = "login.html";
+    }
+    function gotoRegister() {
+        setCookie("backUrl", window.location.href, 7);
+        window.location.href = "register.html";
+    }
+var provinceSelect = document.getElementById("province");
+var citySelect = document.getElementById("city");
+var townSelect = document.getElementById("town");
+
+var xhr = new XMLHttpRequest();
+xhr.open("get", "http://api.yytianqi.com/citylist/id/2", true);
+xhr.send();
+xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+        var result = xhr.responseText; 
+        var provinceList = JSON.parse(result).list; //省份的集合
+
+        provinceList.forEach(function (province) { 
+            var {
+                city_id,
+                name
+            } = province;
+            var option = document.createElement("option");
+            option.value = city_id;
+            option.innerHTML = name;
+            provinceSelect.appendChild(option);
+        });
+
+        provinceSelect.onchange = function () {
+            townSelect.innerHTML = `<option value="">请选择区县</option>`;
+            var provinceId = this.value;
+            var provinceInfo = provinceList.filter(function (item) {
+                return item.city_id == provinceId;
+            })[0];
+            var cityList = provinceInfo["list"]; //根据省份找到它的城市集合
+            citySelect.innerHTML = `<option value="">请选择城市</option>`;
+            cityList.forEach(function (city) {
+                var {
+                    city_id,
+                    name
+                } = city;
+                var option = document.createElement("option");
+                option.value = city_id;
+                option.innerHTML = name;
+                citySelect.appendChild(option);
+            });
+
+            citySelect.onchange = function () {
+                var cityId = this.value; 
+                var cityInfo = cityList.filter(function (item) {
+                    return item.city_id == cityId;
+                })[0];
+                //找到了对应的城市 根据城市获取下面的区县
+                var townList = cityInfo["list"];
+                townSelect.innerHTML = `<option value="">请选择区县</option>`;
+                townList.forEach(function (town) {
+                    var {
+                        city_id,
+                        name
+                    } = town;
+                    var option = document.createElement("option");
+                    option.value = city_id;
+                    option.innerHTML = name;
+                    townSelect.appendChild(option);
+                })
+            }
+        }
+    }
+
+}
+
+$("#gobuy").click(function(){
+    $("#payment_page").css("display","block");
+                var userid=getCookie("loginId")
+                var html="";
+                var str="";
+                $.ajax({
+                    type:"get",
+                    url:"php/getaddress.php",
+                    data:{
+                        userid:userid,
+                    },
+                    dataType:"json",
+                    success:function(obj){
+                        obj.forEach(function(item){
+                            var{address,username}=item;
+                            html+=`<option value="">${address}</option>`;
+                            str+=`<option value="">${username}</option>`
+                        })
+                        $("#address_choose").html(html);
+                        $(".recipient").html(str);
+                    }
+                })
+})
+$("#Confirm_receipt").click(function(){
+    if($("#consigneeName").val()==""||$("#consigneeTel").val()==""||$("#province option:selected").text()==""||$("#city option:selected").text()==""||$("#town option:selected").text()==""||$("#zipCode").val()==""||$("#detail_address").val()==""){
+        alert("信息输入不全")
+    }else{
+    var userid=getCookie("loginId");
+    var username=$("#consigneeName").val();
+    var tel=$("#consigneeTel").val();
+    var address=($("#province option:selected").text())+($("#city option:selected").text())+($("#town option:selected").text())+($("#detail_address").val());
+    var zipCode=$("#zipCode").val();
+    var html="";
+    var str="";
+    $.ajax({
+        type:"get",
+        url:"php/addshippingaddress.php",
+        data:{
+            userid:userid,
+            username:username,
+            tel:tel,
+            address:address,
+            zipCode:zipCode
+        },
+        dataType:"json",
+        success:function(obj){
+            if(obj["code"]==1){
+                // $("#payment_page").css("display","block");
+                alert("新增成功,请点击直接购买")
+                // var userid=getCookie("loginId")
+                // $.ajax({
+                //     type:"get",
+                //     url:"php/getaddress.php",
+                //     data:{
+                //         userid:userid,
+                //     },
+                //     dataType:"json",
+                //     success:function(obj){
+                //         obj.forEach(function(item){
+                //             var{address,username}=item;
+                            
+                //             html+=`<option value="">${address}</option>`;
+                //             str+=`<option value="">${username}</option>`
+                //         })
+                //         $("#address_choose").text(html);
+                //         $(".recipient").text(html);
+                //     }
+                // })
+            }else{
+                alert("请查看信息是否填写");
+            }
+        }
+    })
+}
+})
+$("#pay").click(function(){
+    $("#bigshadow").css("display","block")
+})
+$("#cancel").click(function(){
+    $("#payment_page").css("display","none");
+})
+var price = getCookie("price");
+$(".goodsprice").html("￥"+price)
+</script>
+
+</html>

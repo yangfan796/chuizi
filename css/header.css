@@ -1,0 +1,286 @@
+#header {
+  width: 1349px;
+  height: 290px;
+  margin: 0 auto; }
+  #header .top {
+    width: 1200px;
+    height: 130px;
+    padding-top: 15px;
+    margin-left: 74.5px;
+    margin-right: 74.5px;
+    position: relative; }
+    #header .top .top-left {
+      font-size: 14px;
+      color: #666;
+      float: left; }
+    #header .top .top-logo {
+      float: left;
+      width: 424px;
+      height: 92px;
+      margin: 0 auto;
+      background: url("../img/logo.png") no-repeat 0 0;
+      overflow: hidden;
+      left: 50%;
+      margin-left: -212px;
+      position: absolute;
+      z-index: 2; }
+      #header .top .top-logo a {
+        display: block;
+        width: 424px;
+        height: 92px; }
+    #header .top .top-right {
+      float: right;
+      font-size: 14px;
+      color: #666;
+      width: 300px; }
+      #header .top .top-right .car {
+        margin-left: 15px;
+        float: left; }
+        #header .top .top-right .car a img {
+          float: left; }
+        #header .top .top-right .car a .car-text {
+          float: left;
+          padding-left: 10px; }
+        #header .top .top-right .car a .car-count {
+          float: left;
+          padding-left: 10px; }
+      #header .top .top-right .userinfo {
+        float: right;
+        padding-right: 10px; }
+        #header .top .top-right .userinfo #exist {
+          border: 0;
+          background-color: #fa3c87;
+          color: aliceblue;
+          margin-left: 3px; }
+      #header .top .top-right .top-right-login {
+        float: right;
+        padding-right: 10px; }
+        #header .top .top-right .top-right-login .sign {
+          display: block; }
+        #header .top .top-right .top-right-login .userinfo {
+          display: none; }
+  #header .under {
+    position: relative; }
+    #header .under .menu {
+      width: 1200px;
+      height: 130px;
+      padding-top: 15px;
+      margin-left: 74.5px;
+      margin-right: 74.5px; }
+      #header .under .menu .menu-mid {
+        width: 800px;
+        height: 130px;
+        font-size: 16px;
+        float: left; }
+        #header .under .menu .menu-mid .item1 {
+          float: left;
+          width: 114.28571px;
+          height: 130px; }
+          #header .under .menu .menu-mid .item1 .hover-before .t-item {
+            width: 114.28571px;
+            height: 32.5px;
+            background: #ffb17f; }
+          #header .under .menu .menu-mid .item1 .hover-before .b-item {
+            width: 114.28571px;
+            height: 97.5px;
+            line-height: 97.5px;
+            text-align: center;
+            color: #ffb17f; }
+          #header .under .menu .menu-mid .item1 .hover-after {
+            background-color: #ffb17f; }
+            #header .under .menu .menu-mid .item1 .hover-after .t-item {
+              width: 114.28571px;
+              height: 32.5px; }
+            #header .under .menu .menu-mid .item1 .hover-after .b-item {
+              color: white;
+              width: 114.28571px;
+              height: 97.5px;
+              line-height: 97.5px;
+              text-align: center; }
+        #header .under .menu .menu-mid .item2 {
+          float: left;
+          width: 114.28571px;
+          height: 130px; }
+          #header .under .menu .menu-mid .item2 .hover-before .t-item {
+            width: 114.28571px;
+            height: 32.5px;
+            background: #f694d4; }
+          #header .under .menu .menu-mid .item2 .hover-before .b-item {
+            width: 114.28571px;
+            height: 97.5px;
+            line-height: 97.5px;
+            text-align: center;
+            color: #f694d4; }
+          #header .under .menu .menu-mid .item2 .hover-after {
+            background-color: #f694d4; }
+            #header .under .menu .menu-mid .item2 .hover-after .t-item {
+              width: 114.28571px;
+              height: 32.5px; }
+            #header .under .menu .menu-mid .item2 .hover-after .b-item {
+              color: white;
+              width: 114.28571px;
+              height: 97.5px;
+              line-height: 97.5px;
+              text-align: center; }
+        #header .under .menu .menu-mid .item3 {
+          float: left;
+          width: 114.28571px;
+          height: 130px; }
+          #header .under .menu .menu-mid .item3 .hover-before .t-item {
+            width: 114.28571px;
+            height: 32.5px;
+            background: #93dff2; }
+          #header .under .menu .menu-mid .item3 .hover-before .b-item {
+            width: 114.28571px;
+            height: 97.5px;
+            line-height: 97.5px;
+            text-align: center;
+            color: #93dff2; }
+          #header .under .menu .menu-mid .item3 .hover-after {
+            background-color: #93dff2; }
+            #header .under .menu .menu-mid .item3 .hover-after .t-item {
+              width: 114.28571px;
+              height: 32.5px; }
+            #header .under .menu .menu-mid .item3 .hover-after .b-item {
+              color: white;
+              width: 114.28571px;
+              height: 97.5px;
+              line-height: 97.5px;
+              text-align: center; }
+        #header .under .menu .menu-mid .item4 {
+          float: left;
+          width: 114.28571px;
+          height: 130px; }
+          #header .under .menu .menu-mid .item4 .hover-before .t-item {
+            width: 114.28571px;
+            height: 32.5px;
+            background: #ffe57c; }
+          #header .under .menu .menu-mid .item4 .hover-before .b-item {
+            width: 114.28571px;
+            height: 97.5px;
+            line-height: 97.5px;
+            text-align: center;
+            color: #ffe57c; }
+          #header .under .menu .menu-mid .item4 .hover-after {
+            background-color: #ffe57c; }
+            #header .under .menu .menu-mid .item4 .hover-after .t-item {
+              width: 114.28571px;
+              height: 32.5px; }
+            #header .under .menu .menu-mid .item4 .hover-after .b-item {
+              color: white;
+              width: 114.28571px;
+              height: 97.5px;
+              line-height: 97.5px;
+              text-align: center; }
+        #header .under .menu .menu-mid .item5 {
+          float: left;
+          width: 114.28571px;
+          height: 130px; }
+          #header .under .menu .menu-mid .item5 .hover-before .t-item {
+            width: 114.28571px;
+            height: 32.5px;
+            background: #bf9fff; }
+          #header .under .menu .menu-mid .item5 .hover-before .b-item {
+            width: 114.28571px;
+            height: 97.5px;
+            line-height: 97.5px;
+            text-align: center;
+            color: #bf9fff; }
+          #header .under .menu .menu-mid .item5 .hover-after {
+            background-color: #bf9fff; }
+            #header .under .menu .menu-mid .item5 .hover-after .t-item {
+              width: 114.28571px;
+              height: 32.5px; }
+            #header .under .menu .menu-mid .item5 .hover-after .b-item {
+              color: white;
+              width: 114.28571px;
+              height: 97.5px;
+              line-height: 97.5px;
+              text-align: center; }
+        #header .under .menu .menu-mid .item6 {
+          float: left;
+          width: 114.28571px;
+          height: 130px; }
+          #header .under .menu .menu-mid .item6 .hover-before .t-item {
+            width: 114.28571px;
+            height: 32.5px;
+            background: #ffa8ca; }
+          #header .under .menu .menu-mid .item6 .hover-before .b-item {
+            width: 114.28571px;
+            height: 97.5px;
+            line-height: 97.5px;
+            text-align: center;
+            color: #ffa8ca; }
+          #header .under .menu .menu-mid .item6 .hover-after {
+            background-color: #ffa8ca; }
+            #header .under .menu .menu-mid .item6 .hover-after .t-item {
+              width: 114.28571px;
+              height: 32.5px; }
+            #header .under .menu .menu-mid .item6 .hover-after .b-item {
+              color: white;
+              width: 114.28571px;
+              height: 97.5px;
+              line-height: 97.5px;
+              text-align: center; }
+        #header .under .menu .menu-mid .item7 {
+          float: left;
+          width: 114.28571px;
+          height: 130px; }
+          #header .under .menu .menu-mid .item7 .hover-before .t-item {
+            width: 114.28571px;
+            height: 32.5px;
+            background: #ff8f9d; }
+          #header .under .menu .menu-mid .item7 .hover-before .b-item {
+            width: 114.28571px;
+            height: 97.5px;
+            line-height: 97.5px;
+            text-align: center;
+            color: #ff8f9d; }
+          #header .under .menu .menu-mid .item7 .hover-after {
+            background-color: #ff8f9d; }
+            #header .under .menu .menu-mid .item7 .hover-after .t-item {
+              width: 114.28571px;
+              height: 32.5px; }
+            #header .under .menu .menu-mid .item7 .hover-after .b-item {
+              color: white;
+              width: 114.28571px;
+              height: 97.5px;
+              line-height: 97.5px;
+              text-align: center; }
+        #header .under .menu .menu-mid .item {
+          position: relative;
+          overflow: hidden; }
+          #header .under .menu .menu-mid .item .hover-after {
+            position: absolute;
+            top: -130px;
+            left: 0;
+            transition: .3s; }
+        #header .under .menu .menu-mid .item:hover .hover-after {
+          top: 0; }
+      #header .under .menu .menu-right {
+        float: left;
+        width: 400px;
+        height: 130px; }
+        #header .under .menu .menu-right .menu-right-t-item {
+          width: 342.85714px;
+          height: 32.5px;
+          background: #ffb17f; }
+        #header .under .menu .menu-right #searchcontent {
+          float: left;
+          width: 218.18182px;
+          height: 28.5px;
+          border: 1px #fa3c87 solid;
+          outline: none;
+          margin-top: 35px;
+          margin-left: 20px;
+          padding: 0 5px; }
+        #header .under .menu .menu-right #search {
+          float: left;
+          width: 40px;
+          border: 0;
+          height: 32.5px;
+          margin-top: 34px;
+          background-color: #fa3c87;
+          color: aliceblue; }
+
+/*# sourceMappingURL=header.css.map */

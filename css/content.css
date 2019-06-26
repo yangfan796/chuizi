@@ -1,0 +1,298 @@
+#content {
+  width: 1349px;
+  height: 550px;
+  overflow-x: hidden;
+  max-width: 1349px;
+  margin: 0 auto; }
+  #content .content-top {
+    width: 1349px;
+    height: 500px; }
+    #content .content-top li {
+      display: none;
+      width: 1349px;
+      height: 500px; }
+      #content .content-top li a img {
+        width: 1349px;
+        height: 500px; }
+    #content .content-top .selected {
+      display: block; }
+  #content #content-foot {
+    margin-left: 74.5px;
+    margin-right: 74.5px;
+    width: 1349px;
+    height: 50px;
+    position: relative; }
+    #content #content-foot .line {
+      width: 269.8px;
+      height: 4px;
+      background-color: orange;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    #content #content-foot .content-nav {
+      width: 1349px;
+      height: 50px; }
+      #content #content-foot .content-nav li {
+        float: left;
+        width: 240px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+        border-top: 4px white solid; }
+      #content #content-foot .content-nav .selected {
+        border-top: 4px orange solid; }
+
+#main {
+  width: 1200px;
+  max-width: 1349px;
+  margin-left: 74.5px;
+  margin-right: 74.5px;
+  margin: 0 auto; }
+  #main .main-title1 {
+    margin-left: 74.5px;
+    margin-right: 74.5px;
+    margin-top: 70px; }
+    #main .main-title1 h2 {
+      width: 45px;
+      color: #505050;
+      text-align: center;
+      height: 45px;
+      line-height: 40px;
+      width: 288px;
+      overflow: hidden;
+      background: url(../img/title.png) no-repeat 0 0;
+      font-size: 43px;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: normal; }
+  #main .video-column1 {
+    width: 1200px;
+    height: 435px;
+    margin-top: 50px;
+    background-image: url(../img/goods2.jpg); }
+    #main .video-column1 .video-column-1 {
+      width: 770px;
+      height: 435px;
+      float: left; }
+      #main .video-column1 .video-column-1 img {
+        width: 770px;
+        height: 435px; }
+    #main .video-column1 .video-goods {
+      float: left;
+      position: relative;
+      z-index: 99;
+      width: 410px;
+      height: 435px; }
+      #main .video-column1 .video-goods .v-intro1 {
+        position: absolute;
+        left: 45px;
+        top: 52px;
+        font-size: 30px;
+        color: #000;
+        height: 90px;
+        overflow: hidden; }
+      #main .video-column1 .video-goods .v-intro2 {
+        position: absolute;
+        left: 45px;
+        top: 99px;
+        font-size: 15px;
+        color: #000;
+        height: 23px;
+        overflow: hidden; }
+      #main .video-column1 .video-goods h6 {
+        font-size: 15px;
+        cursor: pointer; }
+      #main .video-column1 .video-goods .v-price {
+        position: absolute;
+        left: 170px;
+        top: 345px;
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+        height: 27px;
+        overflow: hidden; }
+      #main .video-column1 .video-goods a {
+        color: white !important;
+        position: absolute;
+        left: 170px;
+        top: 400px;
+        font-size: 14px;
+        width: 109px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #f694d4;
+        overflow: hidden; }
+  #main .video-column2 {
+    width: 1200px;
+    height: 435px;
+    margin-top: 50px;
+    background-image: url(../img/goods1.jpg); }
+    #main .video-column2 .video-column-1 {
+      width: 770px;
+      height: 435px;
+      float: right; }
+      #main .video-column2 .video-column-1 img {
+        width: 770px;
+        height: 435px; }
+    #main .video-column2 .video-goods {
+      float: left;
+      position: relative;
+      z-index: 99;
+      width: 410px;
+      height: 435px; }
+      #main .video-column2 .video-goods .v-intro1 {
+        position: absolute;
+        left: 45px;
+        top: 52px;
+        font-size: 30px;
+        color: #000;
+        height: 90px;
+        overflow: hidden; }
+      #main .video-column2 .video-goods .v-intro2 {
+        position: absolute;
+        left: 45px;
+        top: 99px;
+        font-size: 15px;
+        color: #000;
+        height: 23px;
+        overflow: hidden; }
+      #main .video-column2 .video-goods h6 {
+        font-size: 15px;
+        cursor: pointer; }
+      #main .video-column2 .video-goods .v-price {
+        position: absolute;
+        left: 170px;
+        top: 345px;
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+        height: 27px;
+        overflow: hidden; }
+      #main .video-column2 .video-goods a {
+        color: white !important;
+        position: absolute;
+        left: 170px;
+        top: 400px;
+        font-size: 14px;
+        width: 109px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #f694d4;
+        overflow: hidden; }
+  #main .video-column3 {
+    width: 1200px;
+    height: 435px;
+    margin-top: 50px;
+    background-image: url(../img/goods3.jpg); }
+    #main .video-column3 .video-column-1 {
+      width: 770px;
+      height: 435px;
+      float: left; }
+      #main .video-column3 .video-column-1 img {
+        width: 770px;
+        height: 435px; }
+    #main .video-column3 .video-goods {
+      float: left;
+      position: relative;
+      z-index: 99;
+      width: 410px;
+      height: 435px; }
+      #main .video-column3 .video-goods .v-intro1 {
+        position: absolute;
+        left: 45px;
+        top: 52px;
+        font-size: 30px;
+        color: #000;
+        height: 90px;
+        overflow: hidden; }
+      #main .video-column3 .video-goods .v-intro2 {
+        position: absolute;
+        left: 45px;
+        top: 99px;
+        font-size: 15px;
+        color: #000;
+        height: 23px;
+        overflow: hidden; }
+      #main .video-column3 .video-goods h6 {
+        font-size: 15px;
+        cursor: pointer; }
+      #main .video-column3 .video-goods .v-price {
+        position: absolute;
+        left: 170px;
+        top: 345px;
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+        height: 27px;
+        overflow: hidden; }
+      #main .video-column3 .video-goods a {
+        color: white !important;
+        position: absolute;
+        left: 170px;
+        top: 400px;
+        font-size: 14px;
+        width: 109px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #f694d4;
+        overflow: hidden; }
+
+#main1 {
+  width: 1200px;
+  max-width: 1349px;
+  margin: 0 auto; }
+  #main1 .main-title2 {
+    margin-left: 74.5px;
+    margin-right: 74.5px;
+    margin-top: 70px; }
+    #main1 .main-title2 h2 {
+      width: 45px;
+      color: #505050;
+      text-align: center;
+      height: 45px;
+      line-height: 40px;
+      width: 288px;
+      overflow: hidden;
+      background: url(../img/title.png) no-repeat 0 0;
+      font-size: 43px;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: normal; }
+  #main1 .web-foot {
+    margin-top: 80px;
+    width: 1200px; }
+    #main1 .web-foot .web-foot-top {
+      background-color: #ffe0ed;
+      width: 1200px;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #fa3b88;
+      min-width: 1200px; }
+      #main1 .web-foot .web-foot-top .foot-item1 {
+        float: left;
+        width: 160px;
+        padding-left: 65px; }
+        #main1 .web-foot .web-foot-top .foot-item1 .foot-item1-title {
+          font-size: 21px;
+          color: #fa3c87;
+          padding-left: 12px;
+          background: url(../img/line.png) no-repeat 0 center;
+          margin-bottom: 5px; }
+        #main1 .web-foot .web-foot-top .foot-item1 ul li {
+          font-size: 15px;
+          color: #898989;
+          margin: 5px 10px; }
+    #main1 .web-foot .web-foot-bottom {
+      background: #ffe0ed;
+      min-width: 1200px;
+      padding: 30px 0;
+      color: #000;
+      font-size: 14px;
+      text-align: center; }
+
+/*# sourceMappingURL=content.css.map */

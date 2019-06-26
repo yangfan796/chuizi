@@ -1,0 +1,150 @@
+#shoppingcar{
+    width: 1349px;
+    margin: 0 auto;
+    .w{
+        width: 1200px;
+        margin: auto;
+        .shopping_nav{
+            .Navigation{
+                font-size: 16px;
+                color: #333;
+                padding: 30px 0 15px;
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 35px;
+                span{
+                    font-size: 16px;
+                    color: #777;
+                }
+                .comma{
+                    font-size: 16px;
+                    color: #777;
+                    padding:0 5px;
+                }
+            }
+        }
+        .main{
+            width: 1200px;
+            margin: auto;
+            .cart-title{
+                margin-bottom: 15px;
+                #cart-ico{
+                    display: block;
+                    width: 140px;
+                    height: 40px;
+                    background: url(../img/sprite\ 2.png) no-repeat -154px -777px;
+                }
+            }
+            .cart-steps1{
+                background: url(../img/cartsteps.png) no-repeat 0 0;
+                width: 1200px;
+                height: 37px;
+                margin: 0 0 30px;
+            }
+            .cart-content{
+               .cart_title{
+                   font-size: 18px;
+                    padding-left: 0;
+                    padding-bottom: 8px;
+                    padding: 0 0 5px 10px;
+                }
+                #table{
+                    width: 1200px;
+                    overflow: hidden;
+                    #th{
+                        height: 37px;
+                        width: 100%;
+                        line-height: 37px;
+                        li{
+                            float: left;
+                            width: 170px;
+                            text-align: center;
+                            line-height: 30px;
+                            font-weight: 400;
+                            color: #666;
+                            font-size: 14px;
+                        }
+                    }
+                    #tbody{
+                        width: 1200px;
+                        .tr{
+                            width: 1200px;
+                            padding-top: 5px;
+                            border-bottom: 1px #999 solid;
+                            .itme_price{
+                                color: #fa3c87;
+                            }
+                            li{
+                                float: left;
+                                width: 170px;
+                                height: 130px;
+                                text-align: center;
+                                line-height: 30px;
+                                font-weight: 400;
+                                color: #666;
+                                font-size: 14px; 
+                                span{
+                                    width: 30px;
+                                    height: 28px;
+                                    float: left;
+                                    border: #999 1px solid;
+                                }
+                                .count{
+                                    width: 100px;
+                                    height: 24px;
+                                    float: left;
+                                    text-align: center;
+                                }
+                                img{
+                                    width: 120px;
+                                    height: 120px;
+                                    margin: auto;
+                                }
+                            }
+                        }
+                    }
+                    #tfoot{
+                        height: 52px;
+                        background-color: #f6b2cd;
+                        padding: 10px 15px;
+                        #deleteall{
+                            width: 111px;
+                            height: 30px;
+                            background: url(../img/sprite\ 2.png) no-repeat -161px -979px;
+                            margin-right: 20px;
+                            border: 0;
+                            float: left;
+                        
+                        }
+                        .total{
+                            float: left;
+                            margin-left: 500px;
+                            font-size: 16px;
+                            margin-top: 20px;
+                            #priceTotal{
+                                margin: 0 5px;
+                                color: #fa3b88;
+                            }
+                        }
+                        #selected{
+                            float: left;
+                            font-size: 16px;
+                            margin-left: 20px;
+                            margin-top: 20px;
+                            #selectedTotal{
+                                margin: 0 5px;
+                                color: #fa3b88;
+                            }
+                        }
+                        #pay{
+                            width: 151px;
+                            height: 42px;
+                            background: url(../img/sprite\ 2.png) no-repeat 0 -979px;
+                            border: 0;
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

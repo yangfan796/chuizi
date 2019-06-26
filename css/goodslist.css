@@ -1,0 +1,146 @@
+#shoppinglist {
+  width: 1349px;
+  margin: 0 auto; }
+  #shoppinglist #warp {
+    width: 1200px;
+    margin: 0 auto; }
+    #shoppinglist #warp .Navigation {
+      font-size: 16px;
+      color: #777;
+      padding: 30px 0 15px;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 35px; }
+    #shoppinglist #warp .content {
+      width: 1200px;
+      margin-bottom: 18px; }
+      #shoppinglist #warp .content .gallery_sortbar {
+        height: 37px;
+        margin-bottom: 18px;
+        background: #f2f2f2;
+        background: #f2f2f2; }
+        #shoppinglist #warp .content .gallery_sortbar .gallery-right {
+          width: 337.25px;
+          padding-right: 12px;
+          padding-left: 6px;
+          float: right;
+          font-size: 14px; }
+          #shoppinglist #warp .content .gallery_sortbar .gallery-right .row-default {
+            float: left;
+            font-size: 16px;
+            height: 37px;
+            line-height: 37px;
+            border-left: 1px #ddd solid;
+            text-align: center;
+            width: 33%; }
+          #shoppinglist #warp .content .gallery_sortbar .gallery-right .row-price {
+            float: left;
+            font-size: 16px;
+            height: 37px;
+            line-height: 37px;
+            border-left: 1px #ddd solid;
+            text-align: center;
+            width: 33%; }
+            #shoppinglist #warp .content .gallery_sortbar .gallery-right .row-price span {
+              padding: 0 2px; }
+          #shoppinglist #warp .content .gallery_sortbar .gallery-right .row-num {
+            float: left;
+            font-size: 16px;
+            height: 37px;
+            line-height: 37px;
+            border-left: 1px #ddd solid;
+            text-align: center;
+            width: 33%; }
+            #shoppinglist #warp .content .gallery_sortbar .gallery-right .row-num span {
+              padding: 0 2px; }
+      #shoppinglist #warp .content .gallery_show {
+        width: 1200px; }
+        #shoppinglist #warp .content .gallery_show .tr {
+          width: 1200px; }
+          #shoppinglist #warp .content .gallery_show .tr li {
+            width: 280px;
+            float: left;
+            text-align: center;
+            margin: 0 10px; }
+            #shoppinglist #warp .content .gallery_show .tr li .goods-img {
+              width: 270px;
+              height: 270px; }
+            #shoppinglist #warp .content .gallery_show .tr li .goodsinfo {
+              width: 270px;
+              height: 157px; }
+              #shoppinglist #warp .content .gallery_show .tr li .goodsinfo .goodstop {
+                height: 75px; }
+                #shoppinglist #warp .content .gallery_show .tr li .goodsinfo .goodstop .goodsname {
+                  font-size: 16px;
+                  color: #181818; }
+                #shoppinglist #warp .content .gallery_show .tr li .goodsinfo .goodstop .goods-intro {
+                  font-size: 14px;
+                  color: #888888;
+                  height: 21px;
+                  line-height: 21px;
+                  width: 240px;
+                  text-align: center;
+                  overflow: hidden;
+                  margin: 8px auto 0px; }
+              #shoppinglist #warp .content .gallery_show .tr li .goodsinfo .goods-price .item-price {
+                font-size: 22px;
+                color: #fa3c87;
+                text-align: center;
+                margin-top: 3px;
+                font-weight: normal; }
+              #shoppinglist #warp .content .gallery_show .tr li .goodsinfo .goods-price em {
+                font-size: 16px; }
+              #shoppinglist #warp .content .gallery_show .tr li .goodsinfo .goods-price .item-info {
+                display: inline-block;
+                font-size: 16px;
+                padding-left: 2px;
+                color: #333333; }
+              #shoppinglist #warp .content .gallery_show .tr li .goodsinfo .goods-goto {
+                margin-top: 5px; }
+                #shoppinglist #warp .content .gallery_show .tr li .goodsinfo .goods-goto .goodsgoto {
+                  font-size: 16px;
+                  display: block;
+                  color: white;
+                  width: 126px;
+                  height: 34px;
+                  line-height: 34px;
+                  text-align: center;
+                  text-indent: -999em;
+                  margin: 0px auto;
+                  background: url(../img/sprite\ 2.png) 0px -1223px no-repeat; }
+      #shoppinglist #warp .content #page {
+        width: 500px;
+        height: 30px;
+        margin: 10px auto;
+        text-align: right;
+        padding-top: 20px; }
+        #shoppinglist #warp .content #page .pagePrev {
+          float: left;
+          width: 80px;
+          height: 30px;
+          background-color: #ef699f;
+          color: aliceblue;
+          text-align: center;
+          line-height: 30px; }
+        #shoppinglist #warp .content #page .pageNext {
+          float: left;
+          width: 80px;
+          height: 30px;
+          background-color: #ef699f;
+          color: aliceblue;
+          text-align: center;
+          line-height: 30px;
+          margin-left: 5px; }
+        #shoppinglist #warp .content #page .pageContent {
+          float: left;
+          height: 30px; }
+          #shoppinglist #warp .content #page .pageContent li {
+            float: left;
+            width: 50px;
+            height: 30px;
+            background-color: #ef699f;
+            color: aliceblue;
+            text-align: center;
+            line-height: 30px;
+            margin-left: 4px; }
+
+/*# sourceMappingURL=goodslist.css.map */

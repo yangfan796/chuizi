@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>春纪</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/float-nav.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/goodslist.css">
+    <link rel="stylesheet" href="http:////at.alicdn.com/t/font_1222440_k828iva7umo.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="top">
+            <div class="top-left">客服专线：400-830-4000 </div>
+            <h1 class="top-logo"><a href="index.html"></a></h1>
+            <div class="top-right  cl">
+                <div class="car">
+                    <a class="gouwuche">
+                        <img src="img/images/sprite_06.jpg" alt="">
+                        <span class="car-text">我的购物车</span>
+                        <span class="car-count">
+                            (<b class="car-number">0</b>)
+                        </span>
+                    </a>
+                </div>
+                <div class="top-right-login">
+                    <span class="sign">
+                        <a href="login.html" class="sign_in">登陆</a>
+                        <span class="comma">/</span>
+                        <a href="register.html" class="sign_up">注册</a>
+                    </span>
+                    <span class="userinfo">
+                            <span class="username">yangfan</span><button id="exist">退出</button>
+                        </span>
+                </div>
+            </div>
+        </div>
+        <div class="under">
+            <div class="menu cl">
+                <div class="menu-mid">
+                    <div class="item item1">
+                        <a href="index.html">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">首页</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">首页</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item2">
+                        <a href="goodslist.html">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">官方商城</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">官方商城</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item3">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">食材养肤</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">食材养肤</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item4">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">产品分类</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">产品分类</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item5">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">春纪名片</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">春纪名片</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item6">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">养肤专栏</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">养肤专栏</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item item7">
+                        <a href="">
+                            <div class="hover-before">
+                                <div class="t-item"></div>
+                                <div class="b-item">会员中心</div>
+                            </div>
+                            <div class="hover-after">
+                                <div class="t-item"></div>
+                                <div class="b-item">会员中心</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-right">
+                    <div class="menu-right-t-item"></div>
+                    <div class="menu-right-content">
+                        <input type="text" id="searchcontent">
+                        <button id="search">搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="shoppinglist">
+        <div id="warp">
+            <div class="Navigation">
+                <span>商城首页</span>
+                <span class="comma">&nbsp;>&nbsp;</span>
+                <span>产品列表</span>
+            </div>
+            <div class="content">
+                <div class="gallery_sortbar">
+                    <div class="gallery-right">
+                        <div class="row-default" order="id">默认</div>
+                        <div class="row-price" order="goodsprice">价格
+                        <i class="iconfont icon-up" id="a" rank="asc" order="goodsprice"></i>
+                        <i class="iconfont icon-down" id="b" rank="desc" order="goodsprice"></i></div>
+                        <div class="row-num" order="goodsnum">销量<i class="iconfont icon-up" rank="asc" order="goodsnum" id="c"></i><i class="iconfont icon-down" rank="desc" order="goodsnum" id="d"></i></div>
+                        <!-- <div class="normal-sort" rank="asc"></div>
+                        <div class="reverse-order" rank="desc">倒序</div> -->
+                    </div>
+                </div>
+                <div class="gallery_show">
+                    <ul class="tr cl">
+                        <!-- <li>
+                            <div class="goods-img">
+                                <img src="img/xp1.jpg" alt="">
+                            </div>
+                            <div class="goodsinfo">
+                                <div class="goodstop">
+                                    <div class="goodsname">春纪新弹力娇嫩旅行三件套装</div>
+                                    <div class="goods-intro">滋养弹滑 鲜嫩养颜</div>
+                                </div>
+                                <div class="goods-price">
+                                    <span class="item-price">￥19.90</span>
+                                    <em>/</em>
+                                    <span class="item-info">旅行套装</span>
+                                </div>
+                                <div class="goods-goto">
+                                    <span class="goodsgoto">立即购买</span>
+                                </div>
+                            </div>
+                        </li> -->
+
+                    </ul>
+                </div>
+                <div id="page">
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main1">
+        <div class="web-foot">
+            <div class="web-foot-top cl">
+                <div class="foot-item1">
+                    <div class="foot-item1-title">明星单品</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">养肤专栏</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">养肤系列</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">春纪名片</div>
+                    <ul>
+                        <li>发光小奶瓶</li>
+                        <li>蓝光水</li>
+                        <li>牛扳安瓶</li>
+                        <li>皙白霜</li>
+                        <li>水凝乳</li>
+                    </ul>
+                </div>
+                <div class="foot-item1">
+                    <div class="foot-item1-title">找到我们</div>
+                    <ul>
+                        <li>附近门店</li>
+                        <li>授权电商</li>
+                        <li>官方微博</li>
+                        <li>官方微信</li>
+                        <li>商城微信</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="web-foot-bottom"> 广东丸美生物技术股份有限公司 粤ICP备12040230号 COPYRIGHT@2014 MMARUBI,ALLRIGHTRESERVED </div>
+        </div>
+    </div>
+
+    <div class="float-nav" id="float_nav">
+        <div id="float_nav_wrap">
+            <div class="column-top">
+                <div class="column column1">
+                    <a class="gouwuche">
+                        <div class="c-ico"></div>
+                        <div class="c-text">购物车</div>
+                        <div class="c-num"><b class="op-cart-number">0</b></div>
+                    </a>
+                </div>
+                <div class="column column2">
+                    <a target="_blank" href="">
+                        <div class="c-ico"></div>
+                        <div class="c-text">个人中心</div>
+                    </a>
+                </div>
+                <div class="column column3">
+                    <a href="javascript:;" target="_self" onclick="OpenChatUrl();">
+                        <div class="c-ico"></div>
+                        <div class="c-text">在线客服</div>
+                    </a>
+                </div>
+                <div class="column column3">
+                    <a href="javascript:;" target="_self" onclick="OpenChat();">
+                        <div class="c-ico"></div>
+                        <div class="c-text">商品咨询</div>
+                    </a>
+                </div>
+                <div class="column column4">
+                    <div class="c-ico"></div>
+                    <div class="c-text">官方电话</div>
+                    <div class="c-text">400-830</div>
+                    <div class="c-text">-4000</div>
+                </div>
+                <div class="column column5">
+                    <div class="c-scan"></div>
+                    <div class="c-text">扫码加入</div>
+                    <div class="c-text">春纪官方</div>
+                    <div class="c-text">微信商城</div>
+                </div>
+            </div>
+            <div class="column column6"><a class="gotop" href="" id="gotop" target="_self"
+                    style="visibility: hidden;">回到顶部</a></div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/page.js"></script>
+<script>
+    var loginId = getCookie("loginId");
+    if (loginId) {
+        var loginName = getCookie("loginName");
+        $(".username").html(loginName);
+        $(".sign").hide();
+        $(".userinfo").show();
+        $.ajax({
+            type:"get",
+            url:"php/showshoppingnumbyuserid.php",
+            data:{
+                userid:loginId
+            },
+            dataType:"json",
+            success:function(obj){
+                var countnum=obj.num;
+                $(".op-cart-number").html(countnum);
+                $(".car-number").html(countnum);
+            }
+    })
+    $(".gouwuche").click(function(){
+        window.location.href="shoppingcar.html"
+    })
+    } else {
+        
+    }
+    $("#exist").click(function(){
+        existLogin();
+        gotoLogin();
+    })
+    $(".sign_in").click(function(){
+        gotoLogin()
+    })
+    $(".sign_up").click(function(){
+        gotoRegister()
+    })
+    function existLogin(){
+        setCookie("loginId", "", -1);
+        setCookie("loginName", "", -1);
+        window.location.href = "login.html";
+    }
+    function gotoLogin(){
+        setCookie("backUrl", window.location.href);
+        window.location.href = "login.html";
+    }
+    function gotoRegister(){
+        setCookie("backUrl", window.location.href);
+        window.location.href = "register.html";
+    }
+    var key = "";
+    var order = "id";
+    var rank = "asc";
+    var tr = document.querySelector(".tr");
+    var searchInput = document.getElementById("searchcontent");
+    var searchBtn = document.getElementById("search");
+    var orderList = document.getElementsByClassName("order");
+
+    $("#a").click(function () {
+        order = $(this).attr("order");
+        rank = $(this).attr("rank");
+        getData(key, order, rank,skipnum,shownum);
+    })
+    $("#b").click(function () {
+        order = $(this).attr("order");
+        rank = $(this).attr("rank");
+        getData(key, order, rank,skipnum,shownum);
+    })
+    $("#c").click(function () {
+        order = $(this).attr("order");
+        rank = $(this).attr("rank");
+        getData(key, order, rank,skipnum,shownum);
+    })
+    $("#d").click(function () {
+        order = $(this).attr("order");
+        rank = $(this).attr("rank");
+        getData(key, order, rank,skipnum,shownum);
+    })
+    $(".row-default").click(function () {
+        order = $(this).attr("order");
+        rank = "asc";
+        getData(key, order, rank,skipnum,shownum);
+    })
+
+    $("#search").click(function(){
+        key=$("#searchcontent").val();
+        getData(key, order, rank,skipnum,shownum);
+    })
+    var pageIndex = 1;
+    var shownum = 4;
+    var showpage = 5;
+    var skipnum=shownum * (pageIndex - 1);
+
+    $("#search").click(function(){
+        key=$("#searchcontent").val();
+        pageIndex = 1;
+        init();
+    })
+    init();
+
+    function init() {
+        $.ajax({
+            type: "get",
+            url: "php/getgoodsinfocount.php",
+            data: {
+                key: key
+            },
+            dataType: "json",
+            success: function (obj) {
+                var count = obj["count"];
+
+                var p = new Page("#page", {
+                    count: count,
+                    shownum: shownum,
+                    showpage: showpage,
+                    callBack: function (pageIndex) {
+                        getData(key, order, rank, shownum * (pageIndex - 1), shownum);
+                    }
+                })
+            }
+        })
+    }
+    function getData(key, order, rank,skipnum,shownum) {
+        $.ajax({
+            type:"get",
+            url:"php/goodslist.php",
+            data:{
+                key:key,
+                order:order,
+                rank:rank,
+                skipnum:skipnum,
+                shownum:shownum
+            },
+            dataType:"json",
+            success:function(obj){
+                var html = "";
+                obj.forEach(function (item) {
+                    var {
+                        id,
+                        goodsname,
+                        goodsdesc,
+                        goodsnum,
+                        goodsprice,
+                        goodsimg
+                    } = item;
+                    html += `<li onclick="getDetail(${id})">
+                            <div class="goods-img">
+                                <img src="img/${goodsimg}.jpg" alt="">
+                            </div>
+                            <div class="goodsinfo">
+                                <div class="goodstop">
+                                    <div class="goodsname">${goodsname}</div>
+                                    <div class="goods-intro">${goodsdesc}</div>
+                                </div>
+                                <div class="goods-price">
+                                    <span class="item-price">￥${goodsprice}</span>
+                                    <em>/</em>
+                                    <span class="item-info">旅行套装</span>
+                                </div>
+                                <div class="goods-goto">
+                                    <span class="goodsgoto">立即购买</span>
+                                </div>
+                            </div>
+                        </li>`;
+                });
+                tr.innerHTML = html;
+                $(".tr").html(html);
+            }
+        })
+        }
+    
+
+    function getDetail(goodsid) {
+        window.location.href = "goodsdetail.html?id=" + goodsid;
+    }
+    
+   
+</script>
+
+</html>

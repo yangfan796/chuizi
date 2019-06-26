@@ -1,0 +1,123 @@
+#signpage{
+    width: 1349px;
+    height: 750px;
+    padding-top: 50px;
+    margin: 0 auto;
+    .sign-content{
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        .sign-content-login{
+            width: 1135px;
+            height: 600px;
+            background: url(../img/signupbg.jpg) no-repeat 0 0;
+            padding: 45px 0 45px 65px;
+            .l-sign{
+                .signner-form{
+                    border: none;
+                    margin: 0;
+                    width: 481px;
+                    background: none;
+                    .signner-title{
+                        border: none;
+                        margin: 0;
+                    h2{
+                        display: block;
+                        font-size: 26px;
+                        margin-block-start: 0.83em;
+                        margin-block-end: 0.83em;
+                        margin-inline-start: 0px;
+                        margin-inline-end: 0px;
+                        font-weight: bold;
+                        text-align: center;
+                        color:#fa3b88;
+                    }
+                    }
+                    form{
+                        .username{
+                            margin-top: 40px;
+                            padding: 0 5px;
+                            width: 357px;
+                            height: 35px;
+                            margin-left: 55px;
+                        }
+                        .userpassword{
+                            margin-top: 40px;
+                            padding: 0 5px;
+                            width: 357px;
+                            height: 35px;
+                            margin-left: 55px;  
+                        }
+                        .l-code{
+                            margin-top: 40px;
+                            padding: 0 5px;
+                            width: 100px;
+                            height: 35px;
+                            margin-left: 55px;
+                            float: left;
+                        }
+                        .l-code-img{
+                            display: block;
+                            float: left;
+                            margin-top: 45px;
+                            padding: 0 5px;
+                            width: 60px;
+                            height: 35px;
+                            line-height: 35px;
+                            font-size: 14px;
+                            font-weight: bold;
+                            text-align: center;
+                            background-color: #eee;
+                            margin-left: 2px;
+                        }
+                        #l-code-choose{
+                            display: block;
+                            float: left;
+                            font-size: 14px;
+                            padding: 0 5px;
+                            width: 100px;
+                            height: 35px;
+                            margin-top: 45px;
+                        }
+                        .check-ways{
+                            float: left;
+                            margin-left: 55px;
+                            margin-top: 30px;
+                            margin-bottom: 30px;
+                            width: 359px;
+                            height: 32px;
+                            line-height: 32px;
+                            font-size: 13px;
+                            #for_auto_signin{
+                                margin-left: 30px;
+                            }
+                            .forgetpass{
+                                float: right;
+                                margin-left: 30px;
+                            }
+                        }
+                        #login{
+                            margin-left: 55px;
+                            width: 359px;
+                            height: 44px;
+                            background-color: #fa3b88;
+                            border-radius: 10px;
+                        }
+                    }
+                    .goto-signup{
+                        color: #181818;
+                        font-size: 16px;
+                        padding: 0 57px;
+                        text-align: right;
+                        padding-top: 15px;
+                        font-size: 16px;
+                        a{
+                            color: #fa3c87;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
